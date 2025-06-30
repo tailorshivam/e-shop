@@ -1,0 +1,11 @@
+select.form-select {
+  min-width: 200px;
+}
+
+input.form-control,
+select.form-select {
+  min-width: 200px;
+}
+.pagination .page-link {
+  cursor: pointer;
+}

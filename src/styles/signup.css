@@ -1,0 +1,18 @@
+.signup-wrapper {
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.signup-box {
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}

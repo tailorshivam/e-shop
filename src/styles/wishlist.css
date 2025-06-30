@@ -1,0 +1,16 @@
+.wishlist-page {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.wishlist-img {
+  height: 100%;
+  object-fit: cover;
+  border-right: 1px solid #eee;
+}
+
+.wishlist-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Bluetooth Headphones",
+    "image": "https://m.media-amazon.com/images/I/51FNnHjzhQL._SX522_.jpg",
+    "price": 1999,
+    "category": "Electronics",
+    "description": "Noise-cancelling headphones with deep bass and 20-hour battery life."
+  },
+  {
+    "id": 2,
+    "title": "Smartwatch with Fitness Tracker",
+    "image": "https://m.media-amazon.com/images/I/41abF4vT-OL._SX522_.jpg",
+    "price": 3499,
+    "category": "Electronics",
+    "description": "Monitors heart rate, steps, and messages with waterproof design."
+  },
+  {
+    "id": 3,
+    "title": "Gaming Mouse RGB",
+    "image": "https://m.media-amazon.com/images/I/516kq12OmmL._SX679_.jpg",
+    "price": 1299,
+    "category": "Electronics",
+    "description": "Ergonomic grip, 6 buttons, and customizable RGB lighting."
+  },
+  {
+    "id": 4,
+    "title": "Portable Bluetooth Speaker",
+    "image": "https://m.media-amazon.com/images/I/81Dl7qzd40L._SX522_.jpg",
+    "price": 899,
+    "category": "Electronics",
+    "description": "Compact speaker with deep bass and 8-hour playback."
+  },
+  {
+    "id": 5,
+    "title": "1080p Web Camera",
+    "image": "https://m.media-amazon.com/images/I/61nTmIUB0LL._SX679_.jpg",
+    "price": 1599,
+    "category": "Electronics",
+    "description": "Full HD webcam with built-in microphone and low-light correction."
+  },
+  {
+    "id": 6,
+    "title": "Men's Casual Sneakers",
+    "image": "https://m.media-amazon.com/images/I/81R6YbNKOzL._SY695_.jpg",
+    "price": 2499,
+    "category": "Footwear",
+    "description": "Comfortable for walking, stylish for every occasion."
+  },
+  {
+    "id": 7,
+    "title": "Women's Running Shoes",
+    "image": "https://m.media-amazon.com/images/I/61a+bSFH0qL._SY695_.jpg",
+    "price": 2799,
+    "category": "Footwear",
+    "description": "Breathable and lightweight for high-performance workouts."
+  },
+  {
+    "id": 8,
+    "title": "Kids' Light-Up Sandals",
+    "image": "https://m.media-amazon.com/images/I/61im-JZtCUL._SY625_.jpg",
+    "price": 999,
+    "category": "Footwear",
+    "description": "Durable sandals with flashing LED soles for fun."
+  },
+  {
+    "id": 9,
+    "title": "Men's Leather Formal Shoes",
+    "image": "https://m.media-amazon.com/images/I/71PbyZLMA1L._SY695_.jpg",
+    "price": 3499,
+    "category": "Footwear",
+    "description": "Elegant design perfect for business meetings or events."
+  },
+  {
+    "id": 10,
+    "title": "Women's Flip-Flops",
+    "image": "https://m.media-amazon.com/images/I/51ymyPu08ML._SY695_.jpg",
+    "price": 499,
+    "category": "Footwear",
+    "description": "Simple, comfy flip-flops for everyday use."
+  },
+  {
+    "id": 11,
+    "title": "Wooden Study Desk",
+    "image": "https://m.media-amazon.com/images/I/71BD3NY+i9L._SX522_.jpg",
+    "price": 4599,
+    "category": "Furniture",
+    "description": "Spacious desk made from high-quality oak wood."
+  },
+  {
+    "id": 12,
+    "title": "Ergonomic Office Chair",
+    "image": "https://m.media-amazon.com/images/I/51A5WZTAYyL._SX679_.jpg",
+    "price": 5899,
+    "category": "Furniture",
+    "description": "Adjustable chair with lumbar support and mesh back."
+  },
+  {
+    "id": 13,
+    "title": "2-Seater Sofa",
+    "image": "https://m.media-amazon.com/images/I/81kqSbzuutL._SX679_.jpg",
+    "price": 9999,
+    "category": "Furniture",
+    "description": "Modern fabric sofa ideal for living rooms and lounges."
+  },
+  {
+    "id": 14,
+    "title": "Bookshelf with 4 Shelves",
+    "image": "https://m.media-amazon.com/images/I/71-qbybrltL._SX679_.jpg",
+    "price": 2499,
+    "category": "Furniture",
+    "description": "Compact vertical storage for books and decor items."
+  },
+  {
+    "id": 15,
+    "title": "Round Coffee Table",
+    "image": "https://m.media-amazon.com/images/I/714oxuzG3dL._SX679_.jpg",
+    "price": 2999,
+    "category": "Furniture",
+    "description": "Minimalist wooden table with smooth finish."
+  },
+  {
+    "id": 16,
+    "title": "Non-Stick Cookware Set",
+    "image": "https://m.media-amazon.com/images/I/61w2eRTCulL._SX679_.jpg",
+    "price": 2899,
+    "category": "Home & Kitchen",
+    "description": "Healthy cooking with premium non-stick surfaces."
+  },
+  {
+    "id": 17,
+    "title": "Steel Water Bottle",
+    "image": "https://m.media-amazon.com/images/I/51Da+TBexCL._SX679_.jpg",
+    "price": 499,
+    "category": "Home & Kitchen",
+    "description": "Keeps beverages hot/cold for 12 hours."
+  },
+  {
+    "id": 18,
+    "title": "Chopper & Mixer Set",
+    "image": "https://m.media-amazon.com/images/I/51mCAmdG4AL._SX679_.jpg",
+    "price": 1299,
+    "category": "Home & Kitchen",
+    "description": "Cut, blend, and chop with this all-in-one tool."
+  },
+  {
+    "id": 19,
+    "title": "Rice Storage Container",
+    "image": "https://m.media-amazon.com/images/I/51zpkIq9dEL._SX679_.jpg",
+    "price": 699,
+    "category": "Home & Kitchen",
+    "description": "Airtight and large-capacity grain storage."
+  },
+  {
+    "id": 20,
+    "title": "Induction Stove",
+    "image": "https://m.media-amazon.com/images/I/71+18JpxhOL._SX679_.jpg",
+    "price": 2499,
+    "category": "Home & Kitchen",
+    "description": "Fast cooking with digital temperature control."
+  },
+  {
+    "id": 21,
+    "title": "Men’s Cotton T-Shirt",
+    "image": "https://m.media-amazon.com/images/I/41T-+cC1rUL._SY741_.jpg",
+    "price": 699,
+    "category": "Fashion",
+    "description": "Breathable and soft fabric for summer comfort."
+  },
+  {
+    "id": 22,
+    "title": "Women’s Maxi Dress",
+    "image": "https://m.media-amazon.com/images/I/61-ehgCJ+bL._SX679_.jpg",
+    "price": 1799,
+    "category": "Fashion",
+    "description": "Floral print with soft flowing fabric."
+  },
+  {
+    "id": 23,
+    "title": "Unisex Hoodie",
+    "image": "https://m.media-amazon.com/images/I/613G0VfIOjL._SX679_.jpg",
+    "price": 1399,
+    "category": "Fashion",
+    "description": "Comfy fleece hoodie available in all sizes."
+  },
+  {
+    "id": 24,
+    "title": "Kids Cotton Shorts",
+    "image": "https://m.media-amazon.com/images/I/712JI6Qq35L._SX569_.jpg",
+    "price": 499,
+    "category": "Fashion",
+    "description": "Soft and elastic waistband for playtime fun."
+  },
+  {
+    "id": 25,
+    "title": "Denim Jacket",
+    "image": "https://m.media-amazon.com/images/I/815DHwdwDaL._SY741_.jpg",
+    "price": 2299,
+    "category": "Fashion",
+    "description": "Classic blue jacket with durable stitching."
+  },
+  {
+    "id": 26,
+    "title": "Wooden Puzzle for Kids",
+    "image": "https://m.media-amazon.com/images/I/71xIRwI8L3L._SX679_.jpg",
+    "price": 399,
+    "category": "Toys & Games",
+    "description": "Educational toy to boost logical thinking."
+  },
+  {
+    "id": 27,
+    "title": "Remote Control Car",
+    "image": "https://m.media-amazon.com/images/I/71WuV1iLxdL._SX522_.jpg",
+    "price": 1399,
+    "category": "Toys & Games",
+    "description": "Fast and responsive RC car with rechargeable battery."
+  },
+  {
+    "id": 28,
+    "title": "Building Blocks Set",
+    "image": "https://m.media-amazon.com/images/I/61JthO-UYkL._SX522_.jpg",
+    "price": 799,
+    "category": "Toys & Games",
+    "description": "Creative block-building fun for ages 3+."
+  },
+  {
+    "id": 29,
+    "title": "Dart Board for Kids",
+    "image": "https://m.media-amazon.com/images/I/81hA+n+Ng4L._SX522_.jpg",
+    "price": 599,
+    "category": "Toys & Games",
+    "description": "Safe dart board with velcro darts for kids."
+  },
+  {
+    "id": 30,
+    "title": "Mini Basketball Hoop",
+    "image": "https://m.media-amazon.com/images/I/61eZXxJ0-RL._SX522_.jpg",
+    "price": 999,
+    "category": "Toys & Games",
+    "description": "Indoor hoop set for fun exercise and practice."
+  }
+]

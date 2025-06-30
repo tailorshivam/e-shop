@@ -1,0 +1,25 @@
+.cart-page {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.cart-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.cart-img {
+  height: 100%;
+  object-fit: cover;
+  border-right: 1px solid #e0e0e0;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-page .btn {
+  font-size: 0.875rem;
+}

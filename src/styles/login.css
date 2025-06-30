@@ -1,0 +1,17 @@
+.login-wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+.login-box {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
