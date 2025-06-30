@@ -11,13 +11,16 @@ function ProductCard({ product }) {
   return (
     <div className="card product-card shadow-sm h-100 border-0">
       <img src={product.image} className="card-img-top product-img" alt={product.title} />
+
       <div className="card-body d-flex flex-column">
-        <h5 className="card-title">{product.title}</h5>
-        <p className="card-text text-muted small mb-3">
-          {product.description.slice(0, 60)}...
-        </p>
+        <Link to={`/product/₹{product.id}`} className="text-decoration-none text-dark">
+          <h5 className="card-title">{product.title}</h5>
+          <p className="card-text text-muted small mb-3">
+            {product.description.slice(0, 60)}...
+          </p>
+        </Link>
         <div className="mt-auto d-flex justify-content-between">
-          <span className="text-primary fw-bold">${product.price}</span>
+          <span className="text-primary fw-bold">₹{product.price}</span>
           <div>
             <button
               className="btn btn-sm btn-outline-primary me-2"
@@ -35,6 +38,7 @@ function ProductCard({ product }) {
         </div>
       </div>
     </div>
+
   );
 }
 

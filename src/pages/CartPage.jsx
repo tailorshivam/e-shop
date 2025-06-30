@@ -30,9 +30,9 @@ function CartPage() {
                       <div className="card-body d-flex flex-column h-100">
                         <h5 className="card-title">{item.title}</h5>
                         <p className="card-text text-muted small mb-2">Qty: {item.qty}</p>
-                        <p className="card-text fw-bold mb-2">Price: ${item.price.toFixed(2)}</p>
+                        <p className="card-text fw-bold mb-2">Price: ₹{item.price.toFixed(2)}</p>
                         <p className="card-text text-primary fw-semibold">
-                          Subtotal: ${(item.qty * item.price).toFixed(2)}
+                          Subtotal: ₹{(item.qty * item.price).toFixed(2)}
                         </p>
                         <div className="mt-auto">
                           <button
@@ -51,7 +51,7 @@ function CartPage() {
           </div>
 
           <div className="d-flex justify-content-between align-items-center mt-5">
-            <h4 className="fw-bold">Total: ${total.toFixed(2)}</h4>
+            <h4 className="fw-bold">Total: ₹{total.toFixed(2)}</h4>
             <div>
               <button className="btn btn-danger me-2" onClick={clearCart}>
                 Clear Cart

@@ -22,11 +22,11 @@ function Checkout() {
   };
 
   if (submitted) {
-    return <h3 className="text-success">🎉 Order Placed Successfully! Redirecting...</h3>;
+    return <h3 className="checkout-wrapper  d-flex flex-column min-vh-100 text-success">🎉 Order Placed Successfully! Redirecting...</h3>;
   }
 
   return (
-    <div>
+    <div className="checkout-wrapper d-flex flex-column min-vh-100">
       <h2>Checkout</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
@@ -47,7 +47,7 @@ function Checkout() {
           </select>
         </div>
 
-        <h5>Total: ${total.toFixed(2)}</h5>
+        <h5>Total: ₹{total.toFixed(2)}</h5>
         <button className="btn btn-success mt-3">Confirm Order</button>
       </form>
     </div>

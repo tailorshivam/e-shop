@@ -95,7 +95,7 @@ function ProductList() {
           <ul className="pagination">
             {[...Array(totalPages)].map((_, i) => (
               <li
-                className={`page-item ${currentPage === i + 1 ? "active" : ""}`}
+                className={`page-item ₹{currentPage === i + 1 ? "active" : ""}`}
                 key={i}
               >
                 <button className="page-link" onClick={() => setCurrentPage(i + 1)}>

@@ -29,7 +29,7 @@ function WishlistPage() {
                       <p className="card-text text-muted small mb-2">
                         {item.description.slice(0, 50)}...
                       </p>
-                      <p className="card-text fw-bold mb-2">Price: ${item.price.toFixed(2)}</p>
+                      <p className="card-text fw-bold mb-2">Price: ₹{item.price.toFixed(2)}</p>
                       <div className="mt-auto d-flex justify-content-end">
                         <button
                           className="btn btn-sm btn-outline-danger"
