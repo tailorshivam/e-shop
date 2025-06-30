@@ -3,13 +3,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA0rYklgo8Q6pSU80ZR9MErt8l3riv5ndM",
-  authDomain: "e-commerce-3bf77.firebaseapp.com",
-  projectId: "e-commerce-3bf77",
-  storageBucket: "e-commerce-3bf77.firebasestorage.app",
-  messagingSenderId: "931787753685",
-  appId: "1:931787753685:web:e03257b156cc3280677a5c",
-  measurementId: "G-0C6KX9KLRD"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_DTORAGE_BUCKET",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const app = initializeApp(firebaseConfig);
