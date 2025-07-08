@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
 import { useAuth } from "../context/AuthContext";
 import { FaUserCircle } from "react-icons/fa";
+import { CartContext } from "../context/CartContext";
+import { WishlistContext } from "../context/WishlistContext";
 
 function Header() {
     const { user, logout } = useAuth();
+    const { cartItems } = useContext(CartContext);
+    const { wishlistItems } = useContext(WishlistContext);
 
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
@@ -19,24 +23,34 @@ function Header() {
                     className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <div className="navbar-nav align-items-center gap-2 text-center text-lg-start">
                         {/* <Link to="/products" className="btn btn-outline-dark me-2">
                             All Products
                         </Link> */}
-                        <Link to="/wishlist" className="btn btn-outline-danger me-2">
+                        <Link to="/wishlist" className="btn btn-outline-danger position-relative">
                             ❤️ Wishlist
+                            {(wishlistItems?.length || 0) > 0 && (
+                                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    {wishlistItems.length}
+                                </span>
+                            )}
                         </Link>
-                        <Link to="/cart" className="btn btn-outline-primary me-2">
+                        <Link to="/cart" className="btn btn-outline-primary position-relative">
                             🛒 Cart
+                            {(cartItems?.length || 0) > 0 && (
+                                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    {cartItems.length}
+                                </span>
+                            )}
                         </Link>
 
                         {/* {user ? (

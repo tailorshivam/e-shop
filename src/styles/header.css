@@ -5,6 +5,7 @@
 .navbar .btn {
   font-size: 0.9rem;
   white-space: nowrap;
+  margin-right: 0.5rem;
 }
 
 .user {
@@ -12,15 +13,29 @@
   width: auto;
 }
 
-/* Improve spacing on small screens */
-@media (max-width: 576px) {
+/* Navbar toggler alignment */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
   .navbar .btn {
     width: 100%;
     margin-bottom: 0.5rem;
+    margin-top: 10px;
   }
+}
 
-  .navbar-nav {
-    flex-direction: column;
-    align-items: stretch;
+/* Extra small devices */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.3rem;
   }
 }
